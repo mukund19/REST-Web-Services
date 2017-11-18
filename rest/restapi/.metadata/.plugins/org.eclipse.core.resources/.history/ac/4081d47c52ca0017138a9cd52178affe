@@ -1,0 +1,19 @@
+package org.mukund.messenger.resources;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+
+@Path("/")
+public class CommentResource {
+
+	@GET
+	public String test() {
+		return "sub resource";
+	}
+	
+	@GET
+	@Path("/{commentId}")
+	public String test2() {
+		return "method 2";
+	}
+}

@@ -1,0 +1,5 @@
+package org.mukund.messenger.resources;
+
+public class ProfileResource {
+
+}

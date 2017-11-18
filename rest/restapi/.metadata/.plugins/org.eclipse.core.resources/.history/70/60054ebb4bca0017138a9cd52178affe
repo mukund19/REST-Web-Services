@@ -1,0 +1,5 @@
+package org.mukund.messenger.resources.beans;
+
+public class MessageFilterBean {
+
+}

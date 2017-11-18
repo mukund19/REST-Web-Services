@@ -1,0 +1,13 @@
+package org.mukund.messenger.service;
+
+import org.mukund.messenger.model.Message;
+
+public class MessageService {
+
+	public List<Message> getAllMessages(){
+		
+		Message m1=new Message(1L,"hello world","mukund");
+		Message m2=new Message(1L,"hello world","mukund");
+		
+	}
+}

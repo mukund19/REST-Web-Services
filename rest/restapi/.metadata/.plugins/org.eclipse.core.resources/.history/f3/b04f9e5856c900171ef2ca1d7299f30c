@@ -1,0 +1,8 @@
+package org.mukund.messenger.resources;
+
+public class MessageResource {
+
+	public String getMessages() {
+		return  "Hello World";
+	}
+}

@@ -1,0 +1,18 @@
+package org.mukund.messenger.service;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import org.mukund.messenger.database.DatabaseClass;
+import org.mukund.messenger.model.Message;
+
+public class MessageService {
+
+	private Map<Long, Message> messages = DatabaseClass.getMessages();
+	
+	public List<Message> getAllMessages(){
+		
+		return new ArrayList<Message>(messages.values());
+	}
+}

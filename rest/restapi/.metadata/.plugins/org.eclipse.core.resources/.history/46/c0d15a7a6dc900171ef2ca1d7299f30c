@@ -1,0 +1,22 @@
+package org.mukund.messenger.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.mukund.messenger.model.Message;
+
+public class MessageService {
+
+	public List<Message> getAllMessages(){
+		
+		Message m1=new Message(1L,"message1","mukund");
+		Message m2=new Message(1L,"message2","mukund");
+		
+		List<Message> l1=new ArrayList<>();
+		
+		l1.add(m1);
+		l1.add(m2);
+		
+		return l1;
+	}
+}
